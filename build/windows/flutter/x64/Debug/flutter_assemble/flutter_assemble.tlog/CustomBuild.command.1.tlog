@@ -1,0 +1,28 @@
+^C:\USERS\HOMEPC\DESKTOP\FLUTTER TEST\IMAGEPICKER\BUILD\WINDOWS\CMAKEFILES\FF4DA36A19044F0678A8AA4870829714\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\src\flutter "PROJECT_DIR=C:\Users\HomePc\Desktop\Flutter Test\imagepicker" FLUTTER_ROOT=C:\src\flutter "FLUTTER_EPHEMERAL_DIR=C:\Users\HomePc\Desktop\Flutter Test\imagepicker\windows\flutter\ephemeral" "PROJECT_DIR=C:\Users\HomePc\Desktop\Flutter Test\imagepicker" "FLUTTER_TARGET=C:\Users\HomePc\Desktop\Flutter Test\imagepicker\lib\main.dart" DART_DEFINES=RkxVVFRFUl9XRUJfQVVUT19ERVRFQ1Q9dHJ1ZQ== DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=false "PACKAGE_CONFIG=C:\Users\HomePc\Desktop\Flutter Test\imagepicker\.dart_tool\package_config.json" C:/src/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HOMEPC\DESKTOP\FLUTTER TEST\IMAGEPICKER\BUILD\WINDOWS\CMAKEFILES\1C8DAB28905A725B02E817F56E47255E\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\HOMEPC\DESKTOP\FLUTTER TEST\IMAGEPICKER\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" "-SC:/Users/HomePc/Desktop/Flutter Test/imagepicker/windows" "-BC:/Users/HomePc/Desktop/Flutter Test/imagepicker/build/windows" --check-stamp-file "C:/Users/HomePc/Desktop/Flutter Test/imagepicker/build/windows/flutter/CMakeFiles/generate.stamp"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

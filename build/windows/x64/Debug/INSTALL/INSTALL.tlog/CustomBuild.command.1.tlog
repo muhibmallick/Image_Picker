@@ -1,0 +1,10 @@
+^C:\USERS\HOMEPC\DESKTOP\FLUTTER TEST\IMAGEPICKER\BUILD\WINDOWS\CMAKEFILES\9B26ADDB997E52BAF2A52BF7B88CB004\INSTALL_FORCE.RULE
+setlocal
+cd .
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
